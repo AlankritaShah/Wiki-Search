@@ -1,0 +1,7 @@
+package com.alankrita.wikisearch.ui.search
+
+interface EntryPresenter {
+  fun setView(entryView: EntryView)
+
+  fun getEntry(query: String)
+}
